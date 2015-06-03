@@ -5,13 +5,19 @@ Credits to [juliancwirko](https://github.com/juliancwirko). This theme is the cl
 
 
 #### Demo:
-[http://abc.pxt.be](http://abc.pxt.be)
+[http://selvakumaresra.com](http://selvakumaresra.herokuapp.com)
 
 Simplycode theme is a free open source Ghost theme (MIT license).
 You can use it as you like. If you want you can show me what you have build on it.
 
 
 ### Main features
+
+* Google analytics
+* Responsive design
+* Subscribe by email powered by [Mailchimp](http://mailchimp.com/)
+* [Google Analytics](http://www.google.com/analytics/)
+* Post comments using [Disqus](http://disqus.com/).
 * Zurb Foundation 5 framework [read more](http://abc.pxt.be/zurb-foundation-5/)
 * Scss (Sass) workflow [read more](http://abc.pxt.be/scss-workflow/)
 * Code highlighter [read more](http://abc.pxt.be/code-highlighter/)
@@ -22,45 +28,49 @@ You can use it as you like. If you want you can show me what you have build on i
 * Clean text formating [read more](http://abc.pxt.be/welcome-to-ghost/)
 * Custom navigation setup [more info](https://blog.ghost.org/navigation/)
 
-You can download it from the GitHub repository:
-[https://github.com/juliancwirko/abc](https://github.com/juliancwirko/abc)
-If you like it consider starring it on GitHub :)
-
-I encourage you to check out my other themes on ThemeForest. Here is a link to my portfolio page: [http://themeforest.net/user/pxThemes/portfolio](http://themeforest.net/user/pxThemes/portfolio?ref=pxThemes) or check pxThemes website here: [pxt.be](http://pxt.be)
-
-You can contact me through Twitter [**@juliancwirko**](https://twitter.com/JulianCwirko)
-
-Your feedback will be very appreciated. You can also send feature requests by opening issues on GitHub.
-[https://github.com/juliancwirko/abc/issues](https://github.com/juliancwirko/abc/issues)
-
-Thanks!
 
 #### Installation steps
 
-* Download the code from the repository [https://github.com/selvakumarEsra/abc](https://github.com/selvakumarEsra/abc)
+* Download the code from the repository [https://github.com/selvakumarEsra/simplycode](https://github.com/selvakumarEsra/simplycode)
 * Copy the `simplycode` folder to `ghost dir/content/themes/` folder
 * Change `disqus_shortname` variable in `partials/disqus.hbs` file to your disqus short name
-* In the ghost Admin dashboard, goto Theme section and select simplycode theme
-* 
+* In the ghost Admin dashboard, goto Theme section and select simplycode theme and save the configuration
 
+### Installation
 
+* Clone this repository on your themes folder:
 
-#### Compiling Sass
+```
+cd ghost/content/themes
+sudo git clone https://github.com/selvakumarEsra/simplycode
+```
 
-You can use Grunt and Node Sass. Just cd into theme folder and run ````npm install```` (with 'sudo' if you're on Ubuntu like linux) and then ````grunt```` to compile scss file and also 'watch for changes'.
+* **[Configure](#configuration) the theme.**
+* Restart Ghost.
+* Select the theme in your Settings page.
 
-You can see Gruntfile.js for configuration changes. You can also play with other Grunt tasks here.
+## Configuration
 
-Of course if you want you can still use Ruby version. Just go to assets folder and run ````scss --watch scss:css````
+* Replace `assets/favicon.jpg` with your own favicon, or remove for the default Ghost favicon.
+* Modify `partials/disqus.hbs` with your shortname.
+* Modify `partials/google-analytics.hbs` with your own snippet.
+* Replace `partials/copyright.hbs` with your own disclaimer.
+* Modify `partials/sidebar-external.hbs` with your own external links.
+* After configuration, you may have to restart for all changes to take place.
 
-But I think that Libsass/Node version is much faster.
+## Copyright & License
 
+Original Copyright (c) 2013-2014 Ghost Foundation - Released under The MIT License.
+Modifications Copyright (c) 2014 David Lecina Fuentes - Released under The MIT License.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #### Feedback
 
 Found a bug or want to add new features. Open issues on GitHub.
-[hhttps://github.com/selvakumarEsra/abc/issues](https://github.com/selvakumarEsra/abc/issues)
-
-#### License
-
-MIT
+[hhttps://github.com/selvakumarEsra/simplycode/issues](https://github.com/selvakumarEsra/simplycode/issues)
