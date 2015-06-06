@@ -28,14 +28,6 @@ You can use it as you like. If you want you can show me what you have build on i
 * Clean text formating [read more](http://abc.pxt.be/welcome-to-ghost/)
 * Custom navigation setup [more info](https://blog.ghost.org/navigation/)
 
-
-#### Installation steps
-
-* Download the code from the repository [https://github.com/selvakumarEsra/simplycode](https://github.com/selvakumarEsra/simplycode)
-* Copy the `simplycode` folder to `ghost dir/content/themes/` folder
-* Change `disqus_shortname` variable in `partials/disqus.hbs` file to your disqus short name
-* In the ghost Admin dashboard, goto Theme section and select simplycode theme and save the configuration
-
 ### Installation
 
 * Clone this repository on your themes folder:
